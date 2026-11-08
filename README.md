@@ -5,6 +5,7 @@
 > [!NOTE]
 > 本仓库是 [xiasi0/ha-oneconnect-bridge](https://github.com/xiasi0/ha-oneconnect-bridge) 的增强 fork（Apache 2.0），
 > 在原版基础上新增了「添加实体」配置界面：勾选 HA 实体即可自动生成子设备映射并注册到华为智慧生活，无需手写 YAML。
+
 > 本仓库是[chaosl1996/ha-oneconnect-bridge](https://github.com/chaosl1996/ha-oneconnect-bridge)上适配了自己的产品做了改造。
 
 ---
