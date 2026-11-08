@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <img src="custom_components/oneconnect_bridge/brand/icon.png" alt="OneConnect Bridge" width="160" />
+  <img src="custom_components/oneconnect_bridge_rcx/brand/icon.png" alt="OneConnect Bridge" width="160" />
 </p>
 
 <h1 align="center">OneConnect Bridge</h1>
@@ -55,7 +55,7 @@ config/custom_components/oneconnect_bridge_rcx/
 在 Home Assistant 中选择：
 
 ```text
-设置 → 设备与服务 → 添加集成 → OneConnect Bridge
+设置 → 设备与服务 → 添加集成 → OneConnect Bridge Rcx
 ```
 
 配置流中手动选择用于局域网配对的 IPv4 网卡。集成会为该实例生成独立的网关序列号，并启动配对监听。
