@@ -2,7 +2,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import json
+import logging
 from typing import Any
+
+_LOGGER = logging.getLogger(__name__)
 
 from ..core.m2m import (
     ACCESS_TOKEN_ID,
@@ -113,6 +116,17 @@ def decode_child_command(
         if option.number == URI_PATH
     ]
     if len(paths) != 2 or paths[0] not in known_dev_ids:
+        # Log EVERY dropped command. Some Huawei H5 cards use a different URI
+        # shape (e.g. 3 path segments), which used to be discarded silently.
+        # Plain ACKs ({"errcode":0}) also arrive here; keep them at debug and
+        # only warn when the cloud actually addressed a URI.
+        log = _LOGGER.warning if paths else _LOGGER.debug
+        log(
+            "Dropping cloud command uri_paths=%s known_devIds=%s payload=%r",
+            paths,
+            sorted(known_dev_ids),
+            (message.payload or b"")[:200],
+        )
         return None
     option_values = {option.number: option.value for option in message.options}
     request_id = option_values.get(REQUEST_ID)
@@ -322,7 +336,9 @@ def parse_batch_bind_response(
     failures = payload.get("failureList")
     successes = payload.get("successList")
     if not isinstance(failures, list) or failures:
-        raise ChildProtocolError("batchBind returned a failureList")
+        raise ChildProtocolError(
+            f"batchBind returned a failureList: {failures!r}"
+        )
     if not isinstance(successes, list) or len(successes) != 1:
         raise ChildProtocolError("batchBind did not return one success item")
     item = successes[0]

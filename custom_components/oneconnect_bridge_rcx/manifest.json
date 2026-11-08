@@ -1,0 +1,15 @@
+{
+  "domain": "oneconnect_bridge_rcx",
+  "name": "OneConnect Bridge RCX",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/rencx6/ha-oneconnect-bridge-rcx",
+  "issue_tracker": "https://github.com/rencx6/ha-oneconnect-bridge/issues-rcx",
+  "requirements": [
+    "cryptography>=42.0.0",
+    "psutil>=5.9.0"
+  ],
+  "iot_class": "cloud_push",
+  "dependencies": [],
+  "codeowners": []
+}

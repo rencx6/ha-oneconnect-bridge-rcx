@@ -1164,6 +1164,11 @@ class CloudM2MClient:
     ) -> bool:
         """Handle online messages not belonging to a specialized runtime."""
 
+        _LOGGER.debug(
+            "Inbound online message uri=%s payload=%r",
+            self._uri_path(message),
+            (message.payload or b"")[:160],
+        )
         if self.on_child_command is not None:
             child_action = self.on_child_command(self, message)
             if child_action is not None:

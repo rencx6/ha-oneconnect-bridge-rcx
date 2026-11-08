@@ -1,0 +1,373 @@
+schema: 1
+
+products:
+  ZG2R:
+    sub_prod_id: "00"
+    device_type: A13
+    manufacturer: "001"
+    model: PCP-OB1116
+    device_name: "智能开关 奥斯陆(无线版) 1键"
+    protocol_type: 6
+    setup_type: 0
+
+  ZG2S:
+    sub_prod_id: "00"
+    device_type: A13
+    manufacturer: "001"
+    model: PCP-OB2116
+    device_name: "智能开关 奥斯陆(无线版) 2键"
+    protocol_type: 6
+    setup_type: 0
+
+  ZG2T:
+    sub_prod_id: "00"
+    device_type: A13
+    manufacturer: "001"
+    model: PCP-OB3106
+    device_name: "智能开关 奥斯陆(无线版) 3键"
+    protocol_type: 6
+    setup_type: 0
+
+  ZG13:
+    sub_prod_id: "00"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color Lamp
+    device_name: "调光调色智能灯"
+    description: "调光调色灯（开关、亮度、色温）"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG14:
+    sub_prod_id: "00"
+    device_type: A1B
+    manufacturer: "001"
+    model: Dimmable Lamp
+    device_name: "调光智能灯"
+    description: "调光灯（开关、亮度）"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG17:
+    sub_prod_id: "00"
+    device_type: A1E
+    manufacturer: "001"
+    model: Adjust Color Light Belt
+    device_name: "调光调色灯带"
+    description: "调光调色灯带（开关、亮度、色温）"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG2F:
+    sub_prod_id: "01"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color Pendant Lamp
+    device_name: "调光调色吊灯"
+    description: "调光调色吊灯（开关、亮度、色温）"
+    protocol_type: 5
+    setup_type: 0
+
+  ZG2G:
+    sub_prod_id: "01"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color Spot Lamp
+    device_name: "调光调色射灯"
+    description: "调光调色射灯（开关、亮度、色温）"
+    protocol_type: 5
+    setup_type: 0
+
+  ZG2H:
+    sub_prod_id: "01"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color Spotlight
+    device_name: "调光调色筒灯"
+    description: "调光调色筒灯（开关、亮度、色温）"
+    protocol_type: 5
+    setup_type: 0
+
+  ZG2I:
+    sub_prod_id: "01"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color CeilingLamp
+    device_name: "调光调色吸顶灯"
+    description: "调光调色吸顶灯（开关、亮度、色温）"
+    protocol_type: 5
+    setup_type: 0
+
+  ZG2J:
+    sub_prod_id: "01"
+    device_type: A1B
+    manufacturer: "001"
+    model: Adjust Color Magnetic Lamp
+    device_name: "调光调色磁吸灯"
+    description: "调光调色磁吸灯（开关、亮度、色温）"
+    protocol_type: 5
+    setup_type: 0
+
+  ZG0R:
+    sub_prod_id: "00"
+    device_type: A1A
+    manufacturer: "001"
+    model: Pendant Lamp
+    device_name: "吊灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0S:
+    sub_prod_id: "00"
+    device_type: A1B
+    manufacturer: "001"
+    model: Lamp
+    device_name: "智能照明"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0T:
+    sub_prod_id: "00"
+    device_type: A1C
+    manufacturer: "001"
+    model: Sleeping Lamp
+    device_name: "床头灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0U:
+    sub_prod_id: "00"
+    device_type: A1D
+    manufacturer: "001"
+    model: Magnetic Suction Lamp
+    device_name: "磁吸灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0V:
+    sub_prod_id: "00"
+    device_type: A1E
+    manufacturer: "001"
+    model: Light Belt
+    device_name: "灯带"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0W:
+    sub_prod_id: "00"
+    device_type: A1F
+    manufacturer: "001"
+    model: Spot Lamp
+    device_name: "射灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0X:
+    sub_prod_id: "00"
+    device_type: A20
+    manufacturer: "001"
+    model: Spotlight
+    device_name: "筒灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0Y:
+    sub_prod_id: "00"
+    device_type: A21
+    manufacturer: "001"
+    model: CeilingLamp
+    device_name: "吸顶灯"
+    description: "单色灯(仅开关)"
+    protocol_type: 100
+    setup_type: 0
+
+  ZG0O:
+    sub_prod_id: "05"
+    device_type: A0E
+    manufacturer: "001"
+    model: BER-LD01
+    device_name: "华为全屋智能 1路 RGBCW 恒压 100W"
+    description: "RGBCW 调光调色照明驱动（开关、亮度、色温、颜色）"
+    protocol_type: 5
+    setup_type: 0
+
+  "1027":
+    sub_prod_id: "00"
+    device_type: "052"          # 加湿器品类
+    manufacturer: "03A"
+    model: "SZK-3B20"
+    device_name: "美的加湿器3B20"
+    protocol_type: 1          # WiFi 品类数字枚举（加湿器 1027 实测=1）
+    setup_type: 0
+
+  "2DCY":
+    sub_prod_id: "00"
+    device_type: "01C"          # 窗帘品类（官方 profile deviceTypeId）
+    manufacturer: "012"         # 杜亚（profile manufacturerId）
+    model: "H1"                 # 华为智选 杜亚智能窗帘（profile deviceModel 原文）
+    device_name: "华为智选杜亚智能窗帘"
+    protocol_type: 1            # WiFi 品类（profile protocolType: "WiFi" → 数字 1）
+    setup_type: 0
+
+  # ---------------------------------------------------------------------------
+  # 温湿度传感器（2026-11-08 主卧温湿度计用；当日从 A2LW 换型为 A2OP）
+  # 官方 profile: https://smarthome-drcn.dbankcdn.com/device/guide/A2OP/A2OP.json
+  #   prodId=A2OP / deviceModel="ZHY-HK007" / deviceTypeId=04E
+  #   manufacturerId=287 / protocolType="WiFi" / uiType=H5
+  #   services:
+  #     heat.current        float R  -100.0..100.0  step 0.1  ℃  ← 卡片「当前温度」
+  #     temperature.current int   R  -10..55                 ℃  ← App 列表 quickmenu
+  #     humidity.current    int   R  0..100                  %  ← 卡片 + quickmenu
+  #   A2OP quickmenu: "{temperature/current%1}℃ {humidity/current%1}%"
+  # H5 卡片 h5_001/data/index.data.js 的两个显示项是 heat_current 与
+  # humidity_current（_expands 映射到 heat / humidity），integer.divisor=false
+  # → 直接显示上报值，不做 ×10 换算；hasswitch=false 纯只读传感器。
+  # 换型目的：heat.current 是 float，温度可显示 1 位小数（A2LW 全 int 会取整）。
+  # protocol_type=1（WiFi 品类实测值，同 1027/2DCY/A2LW）。
+  # 若 batchBind 报 15013，按顺序核 model → device_type/manufacturer/sub_prod_id。
+  # ---------------------------------------------------------------------------
+  "A2OP":
+    sub_prod_id: "00"
+    device_type: "04E"
+    manufacturer: "287"
+    model: "ZHY-HK007"          # profile 原文；目录列表展示名同样是 ZHY-HK007
+    device_name: "智汇云温湿度传感器"
+    description: "温湿度传感器 A2OP（WiFi / H5 / heat.current float + humidity.current int）"
+    protocol_type: 1            # ⚠ 必须为 1（WiFi 品类实测，同 1027/2DCY/A2LW）。
+                                # 曾被误改为 100 → devInfoSync 与绑定时不一致报
+                                # 18002，两张温湿度计卡片注册失败。
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # 03A 燃气报警器 / A2LZ 智汇云燃气传感器（WiFi / H5 / 只读）
+  #   型号来源：https://smarthome-drcn.dbankcdn.com/device/guide/A2LZ/A2LZ.json
+  #   deviceModel=ZHY-HK005，manufacturerId=287（与已跑通的 A2OP 同厂）
+  #   services: alert(0正常/1告警) + fault.status + gasSensor.current(int, %)
+  #   卡片是 LampBanner，hasswitch=false —— 纯只读，无下行控件。
+  # ---------------------------------------------------------------------------
+  "A2LZ":
+    sub_prod_id: "00"
+    device_type: "03A"
+    manufacturer: "287"
+    model: "ZHY-HK005"
+    device_name: "智汇云燃气传感器"
+    description: "燃气传感器 A2LZ（WiFi / H5 / alert 告警 + gasSensor.current 浓度 % / 只读）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # 027 电热水器 / A3L4 A.O.史密斯 EWH-HGKAi（WiFi / H5 / 双向控制）
+  #   型号来源：https://smarthome-drcn.dbankcdn.com/device/guide/A3L4/A3L4.json
+  #   services: switch.on(bool RW) + temperature.target(int RW)/current(int R)
+  #             + status.status(enum R: 0关机/1预约中/2保温中/3加热中)
+  #             + sterilizationSwitch/instantHeatSwitch/aiSwitch/increaseCapacitySwitch
+  #               （抑菌/3D速热/云smart/动态增容，均 bool RW）
+  #             + commonFaultDetection(code/status 只读)
+  #   027 品类 67 台中与"开关机+调温+保温加热状态+抑菌/3D/增容"能力匹配度最高的型号。
+  # ---------------------------------------------------------------------------
+  "A3L4":
+    sub_prod_id: "00"
+    device_type: "027"
+    manufacturer: "18b"
+    model: "EWH-HGKAi"
+    device_name: "A.O.史密斯电热水器"
+    description: "电热水器 A3L4（WiFi / H5 / 开关 + 调温 + 状态 + 抑菌/3D/增容/云smart）"
+    protocol_type: 1
+    setup_type: 0
+
+  # ---------------------------------------------------------------------------
+  # 015 滚筒洗衣机 / A1S7 海尔智能洗衣机 XQG100-BM14266LU1（WiFi / H5 / 双向）
+  #   型号来源：https://smarthome-drcn.dbankcdn.com/device/guide/A1S7/A1S7.json
+  #   015 品类 35 台中唯一海尔官方型号，与阳台海尔 C1 D10L5ELU1（haier 集成）
+  #   同厂，服务语义吻合：switch.on(bool RW 开关机) + action.action(enum RW
+  #   0暂停/1启动) + status.status(enum R 1待机/2完成/3洗涤/4漂洗/5脱水/6预约)
+  #   + faultDetection(code/status 只读)。profile 里的 mode/time/ota/netInfo
+  #   未声明：HA 侧无对应可执行实体（洗衣程序选项是海尔自有大清单，与华为
+  #   4 档枚举对不上；剩余时间 HA 拆成 时/分 两个传感器无法合并），避免死按钮。
+  # ---------------------------------------------------------------------------
+  "A1S7":
+    sub_prod_id: "00"
+    device_type: "015"
+    manufacturer: "371"
+    model: "XQG100-BM14266LU1"
+    device_name: "海尔智能洗衣机"
+    description: "滚筒洗衣机 A1S7（WiFi / H5 / 开关机 + 启停 + 运行状态 + 故障）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # A0E0 海尔智能空调（HarmonyOS）— 012 空调品类
+  # 来源：https://smarthome-drcn.dbankcdn.com/device/guide/A0E0/A0E0.json
+  # 6 服务：switch.on(RW) / mode.mode(enum 1自动 2制冷 3制热 4通风 5除湿) /
+  #   temperature.target(int RW)+current(int R) / fan.gear(0自动 1低 2中 3高)+
+  #   fan.direction(1固定 2左右 3上下 4左右+上下) / ota / netInfo。
+  # ota、netInfo 未声明：桥接无意义（升级/信号信息），避免死按钮。
+  # ---------------------------------------------------------------------------
+  "A0E0":
+    sub_prod_id: "00"
+    device_type: "012"
+    manufacturer: "371"
+    model: "HarmonyOS"
+    device_name: "海尔智能空调"
+    description: "立式空调 A0E0（WiFi / H5 / 开关 + 模式 + 调温 + 风速摆风）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # A3ZZ 海尔麦浪冰箱（BCD-560WGHFD1BWLU1）— 08A 冰箱品类
+  # 来源：https://smarthome-drcn.dbankcdn.com/device/guide/A3ZZ/A3ZZ.json
+  # 用户机型 BCD-511WGHFD1BWLU1 同系列命名（WGHFD1B），海尔 08A 共 14 台中
+  # 与之最接近。服务：heat/refrigeratorFloat + heat/freezerFloat（current/target
+  # 均 float RW）+ switch.aiFfSwitch（AI鲜冻）+ mode 两个 AI 舱（枚举与海尔
+  # 档位语义错位，未声明）+ fault.commonFaultDetection + ota/netInfo（未声明）。
+  # ---------------------------------------------------------------------------
+  "A3ZZ":
+    sub_prod_id: "00"
+    device_type: "08A"
+    manufacturer: "371"
+    model: "BCD-560WGHFD1BWLU1"
+    device_name: "海尔麦浪冰箱"
+    description: "冰箱 A3ZZ（WiFi / H5 / 冷藏冷冻室温度 + AI鲜冻 + 故障）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # 27ZQ 食具消毒柜（ZTP35-A）— 0D5 消毒柜品类
+  # 来源：https://smarthome-drcn.dbankcdn.com/device/guide/27ZQ/27ZQ.json
+  # 0D5 共 6 台、无海尔型号；27ZQ「食具消毒柜」结构最通用（开关+状态+剩余时间
+  # +场景模式）。只声明 switch + status：mode/Worktime/Auto 是 RW 但海尔消毒柜
+  # HA 侧 operationMode 只读、无时长选择实体，声明即死按钮（宁缺勿死）。
+  # ---------------------------------------------------------------------------
+  "27ZQ":
+    sub_prod_id: "00"
+    device_type: "0D5"
+    manufacturer: "fol"
+    model: "ZTP35-A"
+    device_name: "食具消毒柜"
+    description: "消毒柜 27ZQ（WiFi / H5 / 开关机 + 工作状态）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # A1EI HOPE Music Pad 3S（宁波向往智能）— 0BD 音乐主机品类
+  # 来源：https://smarthome-drcn.dbankcdn.com/device/guide/A1EI/A1EI.json
+  # 与用户 HA 设备完全同型号（HA 实体前缀 hope_cn_..._pad3s，即向往 Pad3S）。
+  # 5 服务：volume.volume(int 0-100 RW)+cutVolume(W 音量加减，滑条已覆盖不声明) /
+  #   playControl.play(bool RW 播放/暂停) / playModel.model(enum 1随机 2循环
+  #   3单曲循环 4顺序) / commonExecution1.action(上一首) / commonExecution2.action(下一首)。
+  # ---------------------------------------------------------------------------
+  "A1EI":
+    sub_prod_id: "00"
+    device_type: "0BD"
+    manufacturer: "e75"
+    model: "MusicPad3S"
+    device_name: "HOPE Music Pad 3S"
+    description: "向往双音源背景音乐主机 A1EI（WiFi / H5 / 音量 + 播放控制 + 播放模式 + 切歌）"
+    protocol_type: 1
+    setup_type: 0
+  # ---------------------------------------------------------------------------
+  # ⚠ 已移除 "TREEOW_SWITCH"：自造 prodId 云端不存在，batchBind 必报
+  #   failureList errcode 15000（与 manufacturer/device_type/protocol_type
+  #   组合无关）。一键开关类 child 直接复用云端已验证的 ZG14。
+  # ---------------------------------------------------------------------------

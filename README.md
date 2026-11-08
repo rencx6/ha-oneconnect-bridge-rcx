@@ -5,6 +5,7 @@
 > [!NOTE]
 > 本仓库是 [xiasi0/ha-oneconnect-bridge](https://github.com/xiasi0/ha-oneconnect-bridge) 的增强 fork（Apache 2.0），
 > 在原版基础上新增了「添加实体」配置界面：勾选 HA 实体即可自动生成子设备映射并注册到华为智慧生活，无需手写 YAML。
+> 本仓库是[chaosl1996/ha-oneconnect-bridge](https://github.com/chaosl1996/ha-oneconnect-bridge)上适配了自己的产品做了改造。
 
 ---
 
@@ -34,6 +35,7 @@ OneConnect Bridge 是一个运行在 Home Assistant 中、基于 OneConnect 技�
 - 配对网络：选定网卡必须允许 IPv4 多播和 UDP 5683 入站/出站，且 UDP 5683 不能被其他进程占用；容器、虚拟机或 VLAN 环境需要额外放行多播。
 - 配对并发：同一 Home Assistant 进程同时只允许一个父网关进行局域网配对；已完成绑定的其他网关仍可保持云端在线。
 - 实例数量：最多 3 个父网关实例，每个父网关最多 64 个子设备。
+- 基于大佬们的研究，跟新了部分接口，增加了部分产品，已测试可用：米家温湿度传感器、米家天然气卫士、向往背景音乐、米家窗帘电机（杜亚）、海尔热水器、海尔洗衣机、海尔冰箱、海尔消毒柜、海尔空调等对应的华为产品
 
 ## 快速入门
 
@@ -42,7 +44,7 @@ OneConnect Bridge 是一个运行在 Home Assistant 中、基于 OneConnect 技�
 手动安装：
 
 ```text
-config/custom_components/oneconnect_bridge/
+config/custom_components/oneconnect_bridge_rcx/
 ```
 
 重启 Home Assistant。
